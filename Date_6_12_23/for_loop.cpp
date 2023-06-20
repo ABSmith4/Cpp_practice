@@ -1,5 +1,5 @@
 #include<iostream>
-//this program will utilize for loops to create multiplication, addition, and subtraction table respectively.
+//this program will utilize for loops to create multiplication, addition, division and subtraction tables respectively.
 int main() {
   int num;
   int stop;
@@ -24,6 +24,12 @@ int main() {
   //for subtraction
   for(int i = 1; i<=stop; i++) {
     std::cout<<i<<"-"<<num<<"="<<i-num<<"\n";
+  }
+
+  std::cout<<"\n";
+  //for division
+  for(int i = 1; i<=stop; i++) {
+    std::cout<<i<<"/"<<num<<"="<<i/num<<"\n";
   }
 };
 
